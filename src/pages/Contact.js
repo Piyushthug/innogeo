@@ -13,7 +13,10 @@ const Rooms = () => {
           </Link>
         </Banner>
       </Hero>
-      <RoomsContainer roomType = {"all"} />
+      <h1>
+        GeeksforGeeks is a Computer 
+        Science portal for geeks.
+      </h1>
     </>
   );
 };

@@ -14,12 +14,18 @@ export default class FeaturedRooms extends Component {
       return <Room key={room.id} room={room} />;
     });
     return (
-      <section className="featured-rooms">
-        <Title title="featured rooms" />
-        <div className="featured-rooms-center">
-          {loading ? <Loading /> : rooms}
-        </div>
-      </section>
+      <>
+        <section className="featured-rooms">
+          <Title title="featured Product" />
+          <div className="featured-rooms-center">
+            {loading ? <Loading /> : rooms}
+          </div>
+        </section>
+        <section id="clients" className="clients">
+          <div className="container">
+          </div>
+        </section>
+      </>
     );
   }
 }

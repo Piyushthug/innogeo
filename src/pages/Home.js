@@ -1,24 +1,30 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Hero from "../components/Hero";
+// import Hero from "../components/Hero";
 import Banner from "../components/Banner";
 import Services from "../components/Services";
 import FeaturedRooms from "../components/FeaturedRooms";
+import Testimonial from "../components/Testimonial";
+import CarouselBanner from "../components/CarouselBanner";
+
 const home = () => {
   return (
     <>
-      <Hero>
-        <Banner
-          title="luxurious rooms"
-          subtitle="deluxe rooms starting at $299"
+      <CarouselBanner/>
+      {/* <Hero> */}
+        {/* <Banner
+          title="Unlock Your Positioning Mobility"
+          subtitle="The Compact RTK with Advanced IMU Sensor"
         >
           <Link to="/rooms" className="btn-primary">
-            our rooms
+            our Products
           </Link>
-        </Banner>
-      </Hero>
+        </Banner> */}
+      {/* </CarouselBanner> */}
+      {/* </Hero> */}
       <Services />
       <FeaturedRooms />
+      <Testimonial />
     </>
   );
 };

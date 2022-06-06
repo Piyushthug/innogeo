@@ -4,16 +4,17 @@ import Loading from "./Loading";
 import RoomsFilter from "./RoomsFilter";
 import RoomsList from "./RoomsList";
 
-function RoomContainer({ context }) {
+function RoomContainer({ context, roomType }) {
+  
   const { loading, sortedRooms, rooms } = context;
   if (loading) {
     return <Loading />;
   }
   return (
-    <>
+    <div className="div-cat-filter">
       <RoomsFilter rooms={rooms} />
-      <RoomsList rooms={sortedRooms} />
-    </>
+      <RoomsList rooms={sortedRooms} roomType = {roomType} />
+    </div>
   );
 }
 

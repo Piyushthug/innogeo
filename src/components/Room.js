@@ -4,18 +4,18 @@ import defaultImg from "../images/room-1.jpeg";
 import PropTypes from "prop-types";
 import { memo } from "react";
 const Room = memo(({ room }) => {
-  const { name, slug, images, price } = room;
+  const { name, slug, images, price, type } = room;
  
 
   return (
     <article className="room">
       <div className="img-container">
-        <img src={images[0] || defaultImg} alt="single room" />
-        <div className="price-top">
+        <img src={images[0] || defaultImg} alt={type} />
+        {/* <div className="price-top">
           <h6>${price}</h6>
           <p>per night</p>
-        </div>
-        <Link to={`/rooms/${slug}`} className="btn-primary room-link">
+        </div> */}
+        <Link to={`/rooms/${type}/${slug}`} className="btn-primary room-link">
           features
         </Link>
       </div>

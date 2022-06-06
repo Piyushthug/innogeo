@@ -23,7 +23,7 @@ export default [
     fields: {
       name: "Freyja GNSS Receiver",
       slug: "Freyja GNSS Receiver",
-      type: "single",
+      type: "GNSS RTK Receivers",
       price: 100,
       size: 200,
       capacity: 1,
@@ -45,7 +45,7 @@ export default [
         {
           fields: {
             file: {
-              url: "https://www.satlab.com.se/wp-content/uploads/2021/10/官网.png"
+              url: "https://www.satlab.com.se/wp-content/uploads/2022/02/248x235.png"
             }
           }
         },
@@ -80,7 +80,7 @@ export default [
     fields: {
       name: "SLS-1 Mobile Laser Scanner",
       slug: "SLS-1 Mobile Laser Scanner",
-      type: "single",
+      type: "LiDAR System",
       price: 150,
       size: 250,
       capacity: 1,
@@ -102,7 +102,7 @@ export default [
         {
           fields: {
             file: {
-              url: "https://www.satlab.com.se/wp-content/uploads/2018/08/SLS1.png"
+              url: "https://www.satlab.com.se/wp-content/uploads/2022/01/featured-3.png"
             }
           }
         },
@@ -137,7 +137,7 @@ export default [
     fields: {
       name: "SAL32 Automatic Level",
       slug: "SAL32 Automatic Level",
-      type: "single",
+      type: "Opticals",
       price: 250,
       size: 300,
       capacity: 1,
@@ -159,7 +159,7 @@ export default [
         {
           fields: {
             file: {
-              url: "https://www.satlab.com.se/wp-content/uploads/2018/10/SAL32.png"
+              url: "https://www.satlab.com.se/wp-content/uploads/2022/03/SAL32-03.png"
             }
           }
         },
@@ -194,7 +194,7 @@ export default [
     fields: {
       name: "SL700 GNSS Receiver",
       slug: "SL700 GNSS Receiver",
-      type: "single",
+      type: "GNSS RTK Receivers",
       price: 300,
       size: 400,
       capacity: 1,
@@ -216,7 +216,7 @@ export default [
         {
           fields: {
             file: {
-              url: "https://www.satlab.com.se/wp-content/uploads/2019/02/SL700-LIST.jpg"
+              url: "https://www.satlab.com.se/wp-content/uploads/2022/03/SL700-02.png"
             }
           }
         },
@@ -251,7 +251,7 @@ export default [
     fields: {
       name: "SL86 Rugged Pad",
       slug: "SL86 Rugged Pad",
-      type: "double",
+      type: "Handheld Controllers",
       price: 200,
       size: 300,
       capacity: 2,
@@ -308,7 +308,7 @@ export default [
     fields: {
       name: "SL900 GNSS Receiver",
       slug: "SL900 GNSS Receiver",
-      type: "double",
+      type: "GNSS RTK Receivers",
       price: 250,
       size: 350,
       capacity: 2,
@@ -330,7 +330,7 @@ export default [
         {
           fields: {
             file: {
-              url: "https://www.satlab.com.se/wp-content/uploads/2019/04/SL900-LIST-1.png"
+              url: "https://www.satlab.com.se/wp-content/uploads/2022/02/SL900-248x235-01.png"
             }
           }
         },
@@ -365,7 +365,7 @@ export default [
     fields: {
       name: "SLC GNSS Receiver",
       slug: "SLC GNSS Receiver",
-      type: "double",
+      type: "GNSS RTK Receivers",
       price: 300,
       size: 400,
       capacity: 2,
@@ -387,7 +387,7 @@ export default [
         {
           fields: {
             file: {
-              url: "https://www.satlab.com.se/wp-content/uploads/2018/08/SLC.png"
+              url: "https://www.satlab.com.se/wp-content/uploads/2022/01/SLC-04.png"
             }
           }
         },
@@ -422,7 +422,7 @@ export default [
     fields: {
       name: "Satsurv",
       slug: "Satsurv",
-      type: "double",
+      type: "Software",
       price: 400,
       size: 500,
       capacity: 2,
@@ -444,7 +444,7 @@ export default [
         {
           fields: {
             file: {
-              url: "https://www.satlab.com.se/wp-content/uploads/2020/06/satsurv-list.jpg"
+              url: "https://www.satlab.com.se/wp-content/uploads/2022/03/satsurv-list-300x272.jpg"
             }
           }
         },
@@ -479,7 +479,7 @@ export default [
     fields: {
       name: "SDT2 Electronic Digital Theodolite",
       slug: "SDT2 Electronic Digital Theodolite",
-      type: "family",
+      type: "Opticals",
       price: 300,
       size: 500,
       capacity: 3,
@@ -501,7 +501,7 @@ export default [
         {
           fields: {
             file: {
-              url: "https://www.satlab.com.se/wp-content/uploads/2019/08/SDT2.png"
+              url: "https://www.satlab.com.se/wp-content/uploads/2022/03/SDT2-01.png"
             }
           }
         },
@@ -536,7 +536,7 @@ export default [
     fields: {
       name: "SHC30 Handheld Controller",
       slug: "SHC30 Handheld Controller",
-      type: "family",
+      type: "Handheld Controllers",
       price: 350,
       size: 550,
       capacity: 4,
@@ -558,7 +558,7 @@ export default [
         {
           fields: {
             file: {
-              url: "https://www.satlab.com.se/wp-content/uploads/2018/10/SHC30.png"
+              url: "https://www.satlab.com.se/wp-content/uploads/2022/02/SHC30-02.png"
             }
           }
         },
@@ -593,7 +593,7 @@ export default [
     fields: {
       name: "SHC55 Handheld Controller",
       slug: "SHC55 Handheld Controller",
-      type: "family",
+      type: "Handheld Controllers",
       price: 400,
       size: 600,
       capacity: 5,
@@ -615,7 +615,7 @@ export default [
         {
           fields: {
             file: {
-              url: "https://www.satlab.com.se/wp-content/uploads/2022/01/SHC551.png"
+              url: "https://www.satlab.com.se/wp-content/uploads/2022/02/SHC55-248x235-01.png"
             }
           }
         },
@@ -650,7 +650,7 @@ export default [
     fields: {
       name: "SL800 GNSS Receiver",
       slug: "SL800 GNSS Receiver",
-      type: "family",
+      type: "GNSS RTK Receivers",
       price: 500,
       size: 700,
       capacity: 6,
@@ -672,7 +672,7 @@ export default [
         {
           fields: {
             file: {
-              url: "https://www.satlab.com.se/wp-content/uploads/2018/10/SL800.png"
+              url: "https://www.satlab.com.se/wp-content/uploads/2022/03/SL800-03-1.png"
             }
           }
         },
@@ -707,7 +707,7 @@ export default [
     fields: {
       name: "SLT Series Total Station",
       slug: "SLT Series Total Station",
-      type: "presidential",
+      type: "Opticals",
       price: 600,
       size: 1000,
       capacity: 10,
@@ -729,7 +729,7 @@ export default [
         {
           fields: {
             file: {
-              url: "https://www.satlab.com.se/wp-content/uploads/2018/10/SLT.png"
+              url: "https://www.satlab.com.se/wp-content/uploads/2020/03/SLT-248x235-01.png"
             }
           }
         },
@@ -764,7 +764,7 @@ export default [
     fields: {
       name: "SLX1-NG Multi-application GNSS Receiver",
       slug: "SLX1-NG Multi-application GNSS Receiver",
-      type: "family",
+      type: "GNSS RTK Receivers",
       price: 400,
       size: 600,
       capacity: 5,
@@ -786,7 +786,7 @@ export default [
         {
           fields: {
             file: {
-              url: "https://www.satlab.com.se/wp-content/uploads/2018/10/slx-ön-yüz-kopya-e1538031542630.png"
+              url: "https://www.satlab.com.se/wp-content/uploads/2022/04/SLX1-NG-01.png"
                         }
           }
         },
@@ -821,7 +821,7 @@ export default [
     fields: {
       name: "TR7 GNSS Receiver",
       slug: "TR7 GNSS Receiver",
-      type: "family",
+      type: "GNSS RTK Receivers",
       price: 500,
       size: 700,
       capacity: 6,
@@ -843,7 +843,7 @@ export default [
         {
           fields: {
             file: {
-              url: "https://www.satlab.com.se/wp-content/uploads/2021/06/TR7-GNSS-Receiver.png"
+              url: "https://www.satlab.com.se/wp-content/uploads/2022/02/TR7-248X235-01.png"
             }
           }
         },
@@ -878,7 +878,7 @@ export default [
     fields: {
       name: "TTS2 Total Station",
       slug: "TTS2 Total Station",
-      type: "presidential",
+      type: "Opticals",
       price: 600,
       size: 1000,
       capacity: 10,
@@ -900,7 +900,7 @@ export default [
         {
           fields: {
             file: {
-              url: "https://www.satlab.com.se/wp-content/uploads/2021/06/TTS2-Total-Station.png"
+              url: "https://www.satlab.com.se/wp-content/uploads/2022/03/TTS2-01.png"
             }
           }
         },

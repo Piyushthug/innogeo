@@ -9,6 +9,7 @@ export default class RoomProvider extends Component {
     rooms: [],
     sortedRooms: [],
     featuredRooms: [],
+    typeRooms: [],
     loading: true,
     //
     type: "all",
@@ -52,12 +53,14 @@ export default class RoomProvider extends Component {
     // this.getData();
     let rooms = this.formatData(items);
     let featuredRooms = rooms.filter(room => room.featured === true);
+    let typeRooms = [...new Set(rooms.map(types => types.type))];
     //
     let maxPrice = Math.max(...rooms.map(item => item.price));
     let maxSize = Math.max(...rooms.map(item => item.size));
     this.setState({
       rooms,
       featuredRooms,
+      typeRooms,
       sortedRooms: rooms,
       loading: false,
       //
@@ -86,6 +89,20 @@ export default class RoomProvider extends Component {
     const target = event.target;
     const value = target.type === "checkbox" ? target.checked : target.value;
     const name = target.name;
+    console.log(name, value, target);
+
+    this.setState(
+      {
+        [name]: value
+      },
+      this.filterRooms
+    );
+  };
+  handleClick = event => {
+    const target = event.target;
+    const value = target.type === "checkbox" ? target.checked : target.value;
+    const name = 'type';
+    // const value = val;
     console.log(name, value);
 
     this.setState(
@@ -113,7 +130,7 @@ export default class RoomProvider extends Component {
     capacity = parseInt(capacity);
     price = parseInt(price);
     // filter by type
-    if (type !== "all") {
+    if (type !== "Products") {
       tempRooms = tempRooms.filter(room => room.type === type);
     }
     // filter by capacity
@@ -144,7 +161,8 @@ export default class RoomProvider extends Component {
         value={{
           ...this.state,
           getRoom: this.getRoom,
-          handleChange: this.handleChange
+          handleChange: this.handleChange,
+          handleClick: this.handleClick
         }}
       >
         {this.props.children}
